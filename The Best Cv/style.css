@@ -1,0 +1,57 @@
+body{
+    background-color: #3B0470 ;
+    color: #FFAD00;
+    font-family: 'Lobster Two', cursive
+}
+
+.middle{
+    text-align: center;
+}
+
+#cat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.droite{
+    float: right;
+}
+
+.right{
+    text-align: right;
+}
+
+.gauche{
+    float: left;
+}
+
+.furkan{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.hobbies{
+    width: 30%;
+}
+
+.imghobbies{
+    width: 100%;
+}
+
+h1{
+    font-size: 100px;
+}

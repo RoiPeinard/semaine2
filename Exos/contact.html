@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1><strong>Nous souhaitons nous améliorer</strong></h1>
+    <p>Dis moi comment je peux m'améliorer</p>
+    <!-- Nom Prénom Menu -->
+    <form>
+        <label for="fname">Prénom:</label><br>
+        <input type="text" placeholder="Prénom et Nom" id="fname" name="fname"><br>
+        <label for="lname">Email:</label><br>
+        <input type="text" placeholder="Email" id="lname" name="lname">
+    </form>
+    <!-- Age menu -->
+        <form>
+            <label for="lname">Age:</label><br>
+        <input type="number" id="age" name="age">
+        </form>
+    <p>Qu'est-ce qui te correspond le mieux à l'instant présent :</p>
+    <!-- Choix de statut -->
+    <form>
+        <input list="statut">
+        <datalist id="statut">
+        <option value="Employé">
+        <option value="Je ne préfère rien dire">
+        <option value="Autre">
+        <option value="Profession libérale">
+        <option value="Etudiant">
+        </datalist>
+    </form>
+    <p>Est-ce que tu me recommandes ?</p>
+    <!-- Choix de réponse -->
+    <form>
+        <input type="radio" id="oui" name="choix" value="oui">
+        <label for="oui">Oui</label><br>
+        <input type="radio" id="Peut-être" name="choix" value="Peut-être">
+        <label for="Peut-être">Peut-être</label><br>
+        <input type="radio" id="non" name="choix" value="non">
+        <label for="non">Non</label><br>
+    </form>
+    <p>Pourquoi as tu choisis mes services ?</p>
+    <form>
+        <input list="statut">
+        <datalist id="statut">
+        <option value="Pour ce que je propose">
+        <option value="Pour les différents projets réalisés">
+        <option value="Par recommandation">
+        <option value="Le fait d'etre transparent avec ma communauté">
+        </datalist>
+    </form>
+    <p>Qu'est-ce que je dois améliorer :</p>
+    <p>(choix illimité)</p>
+    <!-- Comment s'améliorer -->
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="portfolio">
+        <label for="vehicle1"> Le Portfolio</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> La page de vente</label><br>
+        <input type="checkbox" id="choice3" name="choice3" value="choice3">
+        <label for="choice3"> Présence sur les réseaux sociaux</label><br>
+        <input type="checkbox" id="choice4" name="choice4" value="choice4">
+        <label for="choice4"> Le formulaire de contact</label><br>
+        <input type="checkbox" id="choice5" name="choice5" value="choice5">
+        <label for="choice5"> Le design du portfolio</label><br>
+    </form>
+    <p> Un commentaire à ajouter ?</p>
+    
+    <textarea placeholder="chaque commentaire nous fait avancer, alors n'hésite pas."></textarea>
+        
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12005.240802085944!2d5.004270535740558!3d45.585607479324935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4da12b7432575%3A0xba66f992f14a3154!2s38540%20Saint-Just-Chaleyssin!5e0!3m2!1sfr!2sfr!4v1605782208250!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+
+
+    <!-- Bouton envoyer -->
+        <form action="/action_page.php">
+            <input type="submit" value="Submit">
+            </form>
+</body>
+</html>

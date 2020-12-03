@@ -1,0 +1,24 @@
+* {
+    color:#3d00a0;
+    font-family: 'Chewy', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: darkblue;
+}
+.chat{
+    color: lightblue;
+    font-weight: 4px;
+    opacity: 0.5;
+    border-bottom: 1px dashed lightblue;
+    border-width:1px;
+    border-style:dotted;
+    border-color:lightblue;
+    text-align: center
+}
+
+li {
+    color: #4100B3;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+

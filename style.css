@@ -1,0 +1,21 @@
+h1 { color: green; font-size: 50px;}
+h3 {color: red; background-color: yellow;}
+p1 {color: purple; background-color: red;}
+li {color: red; font-weight: bold;}
+ol {color: red;}
+
+body{
+    background: url("https://images.unsplash.com/photo-1601513445637-997d743ac760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80") no-repeat center center fixed;
+    background-size: cover;
+} 
+
+. -> classe et #-> id dans le css
+
+.bordure{
+    border: 4px dotted blue;
+    opacity:0.5;
+}
+
+.centre{
+    text-align: center;
+}
